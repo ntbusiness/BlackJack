@@ -14,7 +14,7 @@ public class Main {
 	static int intcard[] = new int[11];			// ランダム数値のint型
 	static int newintcard[] = new int[11];		// 変換後の数値
 	static String strcard[] = new String[11];		// 文字列として格納
-	static CardDraw card = new CardDraw();	// 配列を10確保
+	static CardDraw card = new CardDraw();	// 別Classを使用
 	static int goukeipA;		// 「A」考慮版のプレイヤー合計
 	static int goukeidA;		// 「A」考慮版のディーラー合計
 	static String strmerge;	// 手札詳細表示用
